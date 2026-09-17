@@ -1,0 +1,11 @@
+{
+  "name": "obliga",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/content.js && node --check dist/engine.js && node --check dist/sw.js && node --check dist/cases.js && node --check dist/case-engine.js && node --check dist/case-ui.js && node --check dist/word-cases.js"
+  }
+}
